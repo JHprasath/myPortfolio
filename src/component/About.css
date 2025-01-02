@@ -1,0 +1,307 @@
+.background{
+    background-color: black;
+}
+.about_overall{
+  text-align: center;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Copyright{
+  text-align: center;
+}
+.about_para q{
+  text-wrap: wrap;
+  text-align: center;
+    width: 900px;
+}
+.home_about{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(129, 123, 123, 0.158);
+}
+.about_details{
+    position: relative;
+    top: 150px;
+}
+.home_about h5::first-letter{
+    color: green;
+} 
+.about_details1{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.count{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.count div{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(129, 123, 123, 0.158);
+    border-radius: 5px;
+    width: 260px;
+    height: 130px;
+}
+.count div i{
+    background-color:rgba(129, 123, 123, 0.459);
+    margin-top: -30px;
+    color: rgb(17, 204, 17);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    border:2px solid black ;
+}
+.underline{
+    position: relative;
+    top: -9px;
+    left: 9px;
+    color: black;
+    width: 100px;
+    border-bottom: 2px solid green;
+}
+.my_skills{
+    color: white;
+    position: relative;
+    top: -20px;
+}
+.skills h5{
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-style: 16px;
+}
+.progress-bar{
+    background-color: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+} 
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: #e91e63;
+    width: 98%;
+}    
+.css{
+    background: #cddc39;
+    width: 80%;
+}    
+.bootstrap{
+    background: green;
+    width: 85%;
+}    
+.javascript{
+    background: #e91;
+    width: 70%;
+}        
+.html span{
+    border: 1px solid #e91e63;    
+}
+.css span{
+    border: 1px solid #cddc39;
+}
+.bootstrap span{
+    border: 1px solid green;
+}
+.javascript span{
+    border: 1px solid #e91;
+}
+.skill_progress{
+    padding-bottom: 100px;
+}
+.icon1{
+  width: 250px;
+  display: flex;
+  /* margin-top: 20px; */
+  gap: 20px;
+}
+.icon1 .icons{
+  align-content: center;
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  text-align:center;
+  border: 1px solid;
+  border-radius: 50%;
+  color: #fff;
+}
+.icon1 .icons:hover{
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+.navbar_titles{
+    display: flex;
+    justify-content: end;
+    float: right;
+}
+.navbar_titles ul li {
+    font-weight: 500;
+    padding-left: 20px;
+}
+.container2 {
+    border-top: 1px solid white;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* top: 350px; */
+}
+.line{
+  width: 90%;
+  border-bottom:1px solid grey;
+}
+.interest:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.arrow{
+  float: right;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  z-index: 2;
+}
+.arrow1{
+  position: fixed; 
+}
+.arrow div i{
+  background-color: green;
+}
+.navbar-toggler-icon{
+  position: relative;
+  right: 0px;
+  background-color: rgba(74, 165, 74, 0.95);
+  width: 40px;
+  border-radius: 3px;
+  height: 40px;
+}
+.interestData{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.inside-about{
+  display: flex;
+  justify-content: space-between;
+}
+.about_details1 img{
+  width:350px; 
+  height:400px;
+  border-radius: 50px;
+}
+#navbar{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (min-width:320px) and (max-width:424px) {
+  .arrow{
+    display: none;
+  }
+  .progress-bar{
+    background-color: #959595;
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+} 
+.about_details1{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.inside-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about_details1 img{
+  width:250px; 
+  height:300px;
+  border-radius: 50px;
+}
+  /* .count{
+    display: flex;
+    flex-direction: column;
+  } */
+  /* .count div{
+    margin-bottom: 20px;
+  } */
+  .inside-the-content{
+  width: 100%;
+}
+}
+@media only screen and (min-width:425px) and (max-width:768px) {
+  .arrow{
+    display: none;
+  }
+  .progress-bar{
+    background-color: #959595;
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+} 
+.about_details1{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.inside-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  /* .count{
+    display: flex;
+    flex-direction: column;
+  } */
+  .inside-the-content{
+  width: 100%;
+}
+}
+@media only screen and (min-width:767px) and (max-width:992px) {
+  .inside-the-content{
+  width: 100%;
+}
+}
