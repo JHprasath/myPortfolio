@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
-import my from './Screenshot_20241124-220626.png'
+import my from './jhp.jpg'
 import './About.css'
 function Aboutpage(){
     return(
@@ -34,7 +34,7 @@ function Aboutpage(){
             <div className="text-light py-2 inside-about">
                 <div>
                      {/* <div  class="py-2"><h6><i class="bi bi-chevron-right text-success "></i> Birthday: 12 Dec 2003</h6></div> */}
-                    <div  className="py-2"><h6><i className="bi bi-chevron-right text-success "></i> Website: WWW.example.com</h6></div>
+                    <div  className="py-2"><h6><i className="bi bi-chevron-right text-success "></i> Website: https://jhpportfoilo.netlify.app/</h6></div>
                      {/* <div  class="py-2"><h6><i class="bi bi-chevron-right text-success "></i> Phone: 91+ 6384805049</h6></div> */}
                     <div  className="py-2"><h6><i className="bi bi-chevron-right text-success "></i> State: Tamilnadu,INDIA</h6></div>
                 </div>
@@ -92,9 +92,10 @@ function Aboutpage(){
         </div>
         <div>
             <div  className="skills">
+
             <h5>HTML</h5>
             <div className="progress-bar">
-                <div className="html z-n1"></div>                  
+                <div className="html"></div>                  
             </div>
             
             <h5>CSS</h5>
@@ -102,15 +103,31 @@ function Aboutpage(){
                 <div className="css"></div>
             </div>
             
-            <h5>BOOTSTRAP</h5>
-            <div className="progress-bar">
-                <div className="bootstrap"></div>
-            </div>
-            
             <h5>JAVASCRIPT</h5>
             <div className="progress-bar">
                 <div className="javascript"></div>
             </div>     
+
+            <h5>BOOTSTRAP</h5>
+            <div className="progress-bar">
+                <div className="bootstrap"></div>
+            </div>
+
+            <h5>REACT JS</h5>
+            <div className="progress-bar">
+                <div className="reactjs"></div>
+            </div>
+
+            <h5>NEXT JS</h5>
+            <div className="progress-bar">
+                <div className="nextjs"></div>
+            </div>
+            
+            <h5>TAILWIND CSS</h5>
+            <div className="progress-bar">
+                <div className="tailwind"></div>
+            </div>
+
         </div>
         </div>
 </section>
@@ -142,9 +159,9 @@ function Aboutpage(){
       <div><p class="text-light py-3 Copyright">Let's build something amazing together! Creating beautiful user-centric design that solve real-world problems</p></div> 
       <div>
         <div class="icon1 ">
-          <div class="icons"><i class="bi bi-instagram"></i></div>
+          <div class="icons"><a href="https://www.instagram.com/hari_under_lord_shiva/?hl=en"><i class="bi bi-instagram"></i></a></div>
           <div class="icons"><i class="bi bi-facebook"></i></div>
-          <div class="icons"><i class="bi bi-linkedin"></i></div>
+          <div class="icons"><a href="http://www.linkedin.com/in/hariprasath-jaga03"><i class="bi bi-linkedin"></i></a></div>
           <div class="icons"><i class="bi bi-twitter-x"></i></div>
         </div>
       </div> 

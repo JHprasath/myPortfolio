@@ -21,19 +21,19 @@ function Projectpage(){
 
     <section class="container">
       <div class="services row">
-          <div class="col-sm-12 col-md-4 mb-5"><a href="shape.html">
+          <div class="col-sm-12 col-md-4 mb-5"><a href="https://jhp-shape-clown-website.netlify.app/">
               <i class="bi bi-terminal"></i>
               <h4> SHAPE <br/>(e-commerce website)</h4>
               <p>I create user-friendly and innovative mobile applications for both iOS and Android platforms.</p>           
             </a>
             </div>
-          <div class="col-sm-12 col-md-4 mb-5"><a href="squadfree.html">
+          <div class="col-sm-12 col-md-4 mb-5"><a href="https://squadfree-bootstrap-template.netlify.app/">
               <i class="bi bi-display"></i>
               <h4>SQUADFREE <br/>(bootstrap template)</h4>
               <p>I develop powerful and scalable web applications that deliver seamless performance across all devices.</p>
             </a>
             </div>
-          <div class="col-sm-12 col-md-4 mb-5"><a href="calculator.html">
+          <div class="col-sm-12 col-md-4 mb-5"><a href="https://jhp-calculator.netlify.app/">
               <i class="bi bi-bounding-box"></i>
               <h4>CALLCULATOR <br/>(simple calculator)</h4> 
               <p>I specialize in building and customizing Content Management Systems (CMS) that empower you to manage your website effortlessly.</p>

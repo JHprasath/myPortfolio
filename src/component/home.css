@@ -3,7 +3,18 @@
    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /* height: 150vh; */
 }
+.hulk-image{
+  position:absolute;
+  top: 0px;
+  right: 0;
+}
+/* .hulk-image img{
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+} */
 .navrightside ul li{
   position: relative;
   right: 0px;

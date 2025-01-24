@@ -22,6 +22,9 @@
   background-color: grey;
   color: white;
 }
+.icon1 a,.icons a{
+  color: white;
+}
 .navbar_titles{
     display: flex;
     justify-content: end;
@@ -78,6 +81,9 @@
   border-radius: 50%;
   color: black;
 }
+.contact_icon {
+  margin-bottom: 10px;
+}
 .Contact-details{
     margin-top: 220px;
     margin-bottom: 50px;
@@ -107,6 +113,7 @@
 }
 .message{
     margin-top: 35px;
+    padding-top: 10px;
     width:100%;
     background-color: rgba(0, 0, 0, 0.418);
     border: 1px solid white;

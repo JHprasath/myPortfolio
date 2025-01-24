@@ -1,7 +1,33 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from "react";
+// import React from "react";
 import './Contact.css'
-function Contactpage(){
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
+   function Contactpage(){
+        const form = useRef();
+      
+        const sendEmail = (e) => {
+          e.preventDefault();
+      
+          emailjs
+            .sendForm('service_u0yo3ta', 'template_s1vb5rc', form.current, {
+              publicKey: 'WHrCULyhi67KM3WdV',
+            })
+            .then(
+              () => {
+                console.log('SUCCESS!');
+              },
+              (error) => {
+                console.log('FAILED...', error.text);
+              },
+            );
+        };
+        const sendmsg = () =>{
+            alert('Your message send successfully')
+        }
+
     return(
         <div className='background'>
             <section className="about">
@@ -64,19 +90,27 @@ function Contactpage(){
     </section>
 
 
-    <section className="container">
+     <section className="container">
+        <form ref={form} onSubmit={sendEmail}> 
         <div className="name-email row">
-            <div className="col-sm-12 col-md-6"><input type="text" placeholder="Your Name"/></div>
-            <div className="col-sm-12 col-md-6 your-mail"><input type="text" placeholder="Your Email"/></div>
-        </div>
+            
+
+            <div className="col-sm-12 col-md-6"><input type="text" placeholder='Your Name' name="from_name" /></div>
+            <div className="col-sm-12 col-md-6 your-mail"><input type="email" placeholder='Your Email' name="email_id" required/></div>
+        
+
         <div className="col-sm-12">
-            <div><input className="subject" type="text" placeholder="Subject"/></div>
+            <div><input className="subject" type="text" placeholder="Subject" name='subject'/></div>
         </div>
+
         <div className="col-sm-12">
-            <input type="text" className="message" placeholder="Message"/>
+            <input type="text" className="message" placeholder='Meassage' name='message'/>
         </div>
-        <div className="col-sm-12 send-container"><button type="submit" className="send-message">Send Message</button></div>
-    </section>
+
+        <div className="col-sm-12 send-container"><button type="submit" onClick={sendmsg} className="send-message">Send Message</button></div>
+        </div> 
+        </form>
+    </section> 
 
     <section className="footer">
         <div className=" container2 py-5">
@@ -98,3 +132,39 @@ function Contactpage(){
     )
 }
 export default Contactpage;
+// export default Contactpage;
+// import React, { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
+
+//  const Contactpage = () => {
+//   const form = useRef();
+
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     emailjs
+//       .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+//         publicKey: 'YOUR_PUBLIC_KEY',
+//       })
+//       .then(
+//         () => {
+//           console.log('SUCCESS!');
+//         },
+//         (error) => {
+//           console.log('FAILED...', error.text);
+//         },
+//       );
+//   };
+
+//   return (
+//     <form ref={form} onSubmit={sendEmail}>
+//       <label>Name</label>
+//       <input type="text" name="user_name" />
+//       <label>Email</label>
+//       <input type="email" name="user_email" />
+//       <label>Message</label>
+//       <textarea name="message" />
+//       <input type="submit" value="Send" />
+//     </form>
+//   );
+// };

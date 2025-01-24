@@ -34,10 +34,10 @@ function Header() {
                                         Project List
                                     </Link>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                        <li key="all-projects"><Link class="dropdown-item" to="/project.html">All Projects</Link></li>
-                                        <li key="shape-website"><Link class="dropdown-item" to="/shape.html">Shape website</Link></li>
-                                        <li key="squadfree-website"><Link class="dropdown-item" to="/squadfree.html">Squadfree website</Link></li>
-                                        <li key="simple-calculator"><Link class="dropdown-item" to="/calculator.html">Simple Calculator</Link></li>
+                                        <li key="all-projects"><Link class="dropdown-item" to="/project">All Projects</Link></li>
+                                        <li key="shape-website"><a class="dropdown-item" href="https://jhp-shape-clown-website.netlify.app/">Shape website</a></li>
+                                        <li key="squadfree-website"><a class="dropdown-item" href="https://squadfree-bootstrap-template.netlify.app/">Squadfree website</a></li>
+                                        <li key="simple-calculator"><a class="dropdown-item" href="https://jhp-calculator.netlify.app/">Simple Calculator</a></li>
                                         <li key="car-animation-1"><Link class="dropdown-item" to="/mar.html">1.Car animation</Link></li>
                                         <li key="car-animation-2"><Link class="dropdown-item" to="/car.html">2.Car animation</Link></li>
                                     </ul>

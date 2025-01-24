@@ -50,7 +50,10 @@ function Resumepage(){
                     <li>CSS</li>
                     <li>BOOTSTRAP</li>
                     <li>JAVASCRIPT</li>
-                    <li>BLENDER</li>
+                    <li>REACT JS</li>
+                    <li>NEXT JS</li>
+                    <li>TAILWIND CSS</li>
+                    <li>VITE JS</li>
                 </ol>
             </div>
             <div>
@@ -95,7 +98,7 @@ function Resumepage(){
     </section>
 
     <section className="resume_download">
-      <Link to="./Hariprasath Resume.pdf"  download="./Hariprasath Resume.pdf" target="_blank" className="text-light">download My resume</Link>
+      <a href='./Hariprasath Resume.pdf'  download="./Hariprasath Resume.pdf" target="_blank" className="text-light">Download My Resume</a>
     </section>
 
     <section className="footer">
@@ -104,9 +107,9 @@ function Resumepage(){
   <div><p className="text-light text-center text-wrap py-3">Let's build something amazing together! Creating beautiful user-centric design that solve real-world problems</p></div> 
   <div>
     <div className="icon1 ">
-      <div className="icons"><i className="bi bi-instagram"></i></div>
+      <div className="icons"><a href="https://www.instagram.com/hari_under_lord_shiva/?hl=en"><i className="bi bi-instagram"></i></a></div>
       <div className="icons"><i className="bi bi-facebook"></i></div>
-      <div className="icons"><i className="bi bi-linkedin"></i></div>
+      <div className="icons"><a href="http://www.linkedin.com/in/hariprasath-jaga03"><i className="bi bi-linkedin"></i></a></div>
       <div className="icons"><i className="bi bi-twitter-x"></i></div>
     </div>
   </div> 
