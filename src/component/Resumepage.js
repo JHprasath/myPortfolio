@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import './Resume.css'
-import { Link } from 'react-router-dom';
 function Resumepage(){
     return(
         <div className='background'>
