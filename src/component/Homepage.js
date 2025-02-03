@@ -4,7 +4,7 @@ import React from "react";
 import './green.jpg'
 // import { useTypewriter ,Cursor } from 'react-simple-typewriter'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import me from'../component/hulk.jpg';
+
 
 
 function Homepage(){
