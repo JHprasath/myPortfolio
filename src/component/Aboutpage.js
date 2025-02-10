@@ -2,9 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import my from './jhp.jpg'
 import './About.css'
+
+  
+
 function Aboutpage(){
+
     return(
         <div className='background'>
+ 
 
 <section className="about">
     <div className="about_overall">

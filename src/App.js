@@ -8,10 +8,13 @@ import Resumepage from './component/Resumepage';
 import Contactpage from './component/Contactpage';
 import { Route, Routes } from 'react-router-dom';
 import Header from './component/Header';
-
+import SplashCursor from './SplashCursor'
 function App() {
   return (
     <div className="App">
+      
+
+<SplashCursor />
       <Header/>
       <Routes>
         <Route path='/' element={<Homepage/>} />
